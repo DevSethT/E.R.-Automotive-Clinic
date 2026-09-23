@@ -5,7 +5,7 @@ function Header () {
   return (
     <header className="header">
       <div className="header__logo-container">
-        <img src="" alt="" className="header__logo" />
+        <img src="#" alt="Logo" className="header__logo" />
         <h1 className="header__name">E.R. Automotive Clinic</h1>
       </div>
       <div className="header__navbar">
@@ -16,8 +16,8 @@ function Header () {
           <li className="navbar__link"><Link to="/reviews"><p className="navbar__text">Reviews</p></Link></li>
         </ul>
       </div>
-      <div className="header__call-btn">
-        <button className="call-btn"> <img src="src/assets/phone.svg" alt="small phone icon" className="header__call-logo" /> Call Now</button>
+      <div className="header__call-container">
+        <button className="header__call-btn"> <img src="src/assets/phone.svg" alt="small phone icon" className="header__call-logo" /> Call Now</button>
       </div>
     </header>
   )

@@ -1,3 +1,57 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo{
+    hight: 50px;
+    width: 50px;
+}
+
+.header__name{
+
+}
+
+.header__navbar{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.navbar__links{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+
+.navbar__link{
+    margin: 0 10px;
+}
+
+.navbar__text{
+
+}
+
+.header__call-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.header__call-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header__call-logo{
     height: 20px;
 }
