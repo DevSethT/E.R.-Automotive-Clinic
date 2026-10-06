@@ -2,15 +2,23 @@
 
 }
 
-.Home__hero{
-
+.home__hero{
+background-image: url('../../assets/E.R.AutomotiveClinicBranding.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 600px;
+color: white;
+display: flex;
+flex-direction: column;
 }
 
 .home__hero-text{
-
+width: 50%;
 }
 
 .home__hero-description{
+width: 50%;
 
 }
 

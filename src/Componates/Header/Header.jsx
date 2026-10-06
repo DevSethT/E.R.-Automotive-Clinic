@@ -1,12 +1,13 @@
 import './Header.css'
 import { Link } from 'react-router-dom'
 
+
 function Header () {
   return (
     <header className="header">
       <div className="header__logo-container">
         <img src="#" alt="Logo" className="header__logo" />
-        <h1 className="header__name">E.R. Automotive Clinic</h1>
+        {/* <h1 className="header__name">E.R. Automotive Clinic</h1> */}
       </div>
       <div className="header__navbar">
         <ul className="navbar__links">
