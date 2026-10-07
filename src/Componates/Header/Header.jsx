@@ -1,6 +1,6 @@
 import './Header.css'
 import { Link } from 'react-router-dom'
-
+import logo from '../../assets/E.R.Logo.png'
 
 function Header () {
   return (
@@ -11,10 +11,10 @@ function Header () {
       </div>
       <div className="header__navbar">
         <ul className="navbar__links">
-          <li className="navbar__link"><Link to="/"><p className="navbar__text">Home</p></Link></li>
-          <li className="navbar__link"><Link to="/about"><p className="navbar__text">About</p></Link></li>
-          <li className="navbar__link"><Link to="/gallery"><p className="navbar__text">Gallery</p></Link></li>
-          <li className="navbar__link"><Link to="/reviews"><p className="navbar__text">Reviews</p></Link></li>
+          <li className="navbar__link"><Link className="navbar__HL" to="/"><p className="navbar__text">Home</p></Link></li>
+          <li className="navbar__link"><Link className="navbar__HL"to="/about"><p className="navbar__text">About</p></Link></li>
+          <li className="navbar__link"><Link className="navbar__HL" to="/gallery"><p className="navbar__text">Gallery</p></Link></li>
+          <li className="navbar__link"><Link className="navbar__HL" to="/reviews"><p className="navbar__text">Reviews</p></Link></li>
         </ul>
       </div>
       <div className="header__call-container">

@@ -10,7 +10,6 @@
 }
 
 .header__logo{
-    height: 100px;
     width: 100px;
 }
 
@@ -29,14 +28,35 @@ align-items: center;
     list-style: none;
     padding: 0;
     gap: 10px;
+    margin: 0;
 }
 
 .navbar__link{
     margin: 0 10px;
+    color: white
+}
+
+.navbar__link:hover{
+    text-decoration: none;
+    color: rgb(255, 23, 23);
+}
+
+.navbar__link:active{
+    text-decoration: none;
 }
 
 .navbar__text{
+    text-decoration: none;
+    color: white;
+}
 
+.navbar__text:active{
+    text-decoration: none;
+    color: rgb(255, 23, 23);
+}
+
+.navbar__HL{
+    text-decoration: none;
 }
 
 .header__call-container{

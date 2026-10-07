@@ -1,6 +1,8 @@
 import "./Home.css"
 import Header from "../../Componates/Header/Header";
 import Footer from "../../Componates/Footer/Footer"
+import ServiceCard from "../../Componates/ServiceCard/ServiceCard";
+import Services from "../../Utils/Services";
 
 function Home() {
   return (
@@ -15,11 +17,11 @@ function Home() {
         {/* emailed picture as background for here using css */}
         {/* split the h2 into two lines and add another color to the second line */}
         {/* h2 is based off of slogan */}
-        <h2 className="home__hero-text">Your Car,<span className="home__hero-span"> Our Priority</span></h2>
+        <h2 className="home__hero-text">Your Vehicle,<span className="home__hero-span"> Our Priority</span></h2>
         {/* make this take up the same amount of space as the h2 and display it below it still looking pretty and the wording is free to change */}
         <p className="home__hero-description">We provide top-quality automotive services to keep your vehicle running smoothly.</p>
         {/* btn on hero that will be used to call the business */}
-        <a href="tel:409-499-7634"  className="home__hero-btn-text"><button className="home__hero-btn">Get In Touch</button></a>
+        <a href="tel:409-499-7634"  className="home__hero-btn-text"><button className="home__hero-btn"><img className="home__hero-btn-icon" src="src\assets\phone.svg" alt="Phone Icon" /> Get In Touch</button></a>
       </div>
 
 
@@ -30,6 +32,9 @@ function Home() {
         {/* make little cards for each service w/ a name small description and an img */}
         <div className="home__service-cards">
           {/* map the cards to here and have a max of 5 or 6 if needed add an other card */}
+          {Services.map((service) => (
+            <ServiceCard key={service.id} name={service.name} description={service.description} img={service.img} />
+          ))}
           </div>
       </div>
     

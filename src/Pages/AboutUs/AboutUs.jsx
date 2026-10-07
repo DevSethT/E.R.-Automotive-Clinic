@@ -12,6 +12,7 @@ function AboutUs () {
       </div>
       <div className="aboutus__meet">
         <h3 className="aboutus__meet-title">Meet Our Team</h3>
+        {/* PUT TEAM CARDS HERE AND HAVE IT MAP HERE WITH A PHOTO AND DESCRIPTION */}
         <div className="aboutus__meet-container"></div>
         {/* display team cards here with a photo of each member name and specialty */}
       </div>
