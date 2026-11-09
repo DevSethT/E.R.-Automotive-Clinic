@@ -21,7 +21,7 @@ function Home() {
         {/* make this take up the same amount of space as the h2 and display it below it still looking pretty and the wording is free to change */}
         <p className="home__hero-description">We provide top-quality automotive services to keep your vehicle running smoothly.</p>
         {/* btn on hero that will be used to call the business */}
-        <a href="tel:409-499-7634"  className="home__hero-btn-text"><button className="home__hero-btn"><img className="home__hero-btn-icon" src="src\assets\phone.svg" alt="Phone Icon" /> Get In Touch</button></a>
+        <a href="tel:409-499-7634"  className="home__hero-btn-text"><img className="home__hero-btn-icon" src="src\assets\phone.svg" alt="Phone Icon" /> Get In Touch</a>
       </div>
 
 
